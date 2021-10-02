@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+.work-body h1,
+h2 {
+  font-family: $headline-font;
+  color: $primary-text-color;
+  font-weight: 700;
+}
+
+.line {
+  background: $color-primary;
+}
+
+.tag {
+  background: $color-primary;
+}
+
+.workcard {
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
+@media screen and (max-width: 768px) {
+  .work-buttons button {
+    margin-left: 0;
+  }
+  .work-buttons button:nth-child(2) {
+    margin-top: 1.25rem;
+  }
+}

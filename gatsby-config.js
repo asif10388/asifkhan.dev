@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Asif Khan`,
+    description: `For over 3 years, I've been helping startups, corporate businesses, non-profits, and pets launch their online business.`,
+    author: `@asif10388`,
+    siteUrl: `https://asifkhan.dev/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `asif-khan`,
+        short_name: `asif`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
@@ -31,8 +31,17 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        sitemapSize: 5000,
+      },
+    },
+    `gatsby-plugin-offline`,
+    "gatsby-plugin-postcss",
+    `gatsby-plugin-sass`,
+    "gatsby-plugin-robots-txt",
+    `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-smoothscroll`,
   ],
 }
