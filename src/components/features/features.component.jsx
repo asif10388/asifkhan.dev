@@ -16,7 +16,7 @@ const Features = () => {
             <div className="feature-image">
               <img
                 src="https://res.cloudinary.com/asif10388/image/upload/v1632998565/Web_Dev_qbd2ti.svg"
-                alt=""
+                alt="Web Development"
               />
             </div>
             <div className="flex-grow">
@@ -34,7 +34,7 @@ const Features = () => {
             <div className="feature-image">
               <img
                 src="https://res.cloudinary.com/asif10388/image/upload/v1632998545/Design_Pen_o2tswd.svg"
-                alt=""
+                alt=" Web Design"
               />
             </div>
             <div className="flex-grow">
@@ -51,7 +51,7 @@ const Features = () => {
             <div className="feature-image">
               <img
                 src="https://res.cloudinary.com/asif10388/image/upload/v1633000053/SEO_phkovs.svg"
-                alt=""
+                alt="Search Engine Optimization"
               />
             </div>
             <div className="flex-grow">

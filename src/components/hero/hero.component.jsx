@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "./hero.styles.scss"
 import CustomButton from "../custom-button/custom-button.component"
-//import scrollTo from "gatsby-plugin-smoothscroll"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Hero = () => {
   const [toolTip, setToolTip] = useState("Copy to clipboard")
@@ -21,6 +21,7 @@ const Hero = () => {
       <div className="container mx-auto flex px-4 lg:px-24 py-32 md:flex-row flex-col items-center">
         <div className="lg:flex-grow lg:w-1/2 lg:pr-24 flex flex-col mb-16 md:mb-0">
           <p className="text-lg font-semibold leading-relaxed">I'm Asif &</p>
+          <h1 className="hidden">Asif Khan</h1>
           <h1 className="sm:text-4xl text-3xl mb-4 font-medium">
             I Will Help You Build
             <br />
@@ -34,7 +35,7 @@ const Hero = () => {
             <CustomButton
               isPrimary
               utilities="mr-4 md:mr-8"
-              // onClick={() => scrollTo("#works")}
+              onClick={() => scrollTo("#works")}
             >
               My Projects
             </CustomButton>

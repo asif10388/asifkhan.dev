@@ -23,9 +23,9 @@ module.exports = {
         name: `asif-khan`,
         short_name: `asif`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#00ebc7`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`,
       },
     },
     `gatsby-plugin-sitemap`,

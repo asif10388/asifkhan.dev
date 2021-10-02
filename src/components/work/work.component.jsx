@@ -24,17 +24,6 @@ const Work = () => (
               } lg:flex-grow md:w-1/2 lg:pr-16 flex flex-col mb-16 md:mb-0`}
             >
               <h2 class="font-bold sm:text-4xl text-3xl">{work.title}</h2>
-              <div class="font-bold flex my-4">
-                {work.tags.map(tag => (
-                  <div
-                    class={`${
-                      flipOrder ? "mr-4 md:mr-0 md:ml-4" : "mr-4"
-                    } px-2 py-1 bg-green-500 rounded tag`}
-                  >
-                    <p class="text-sm">{tag}</p>
-                  </div>
-                ))}
-              </div>
               <p class="mb-12 leading-relaxed text-gray-600">
                 {work.description}
               </p>
@@ -54,7 +43,7 @@ const Work = () => (
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full">
               <img
                 class="object-cover object-center rounded"
-                alt="hero"
+                alt="Project"
                 src={work.imgUrl}
               />
             </div>
