@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Asif Khan`,
-    description: `For over 3 years, I've been helping startups, corporate businesses, non-profits, and pets launch their online business.`,
+    description: `For over 3 years, I've been helping startups, corporate businesses, non-profits, and pets launch their online businesses and I can do the same for you.`,
     author: `@asif10388`,
-    siteUrl: `https://asifkhan.dev/`,
+    siteUrl: `https://asifkhandev.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

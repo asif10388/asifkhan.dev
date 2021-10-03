@@ -10,7 +10,7 @@ import Contact from "../components/contact/contact.component"
 
 const HomePage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Web Developer and Designer" />
     <div style={{ backgroundColor: "#f2f4f6" }}>
       <Hero />
       <Work />

@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import "./header.styles.scss"
 
-const Header = ({ siteTitle }) => {
+const Header = () => {
   const [navBar, setNavbar] = useState(false)
 
   const changeBackground = () => {
@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => {
     >
       <div className="container mx-auto flex flex-wrap px-2 py-6 md:px-24 flex-col md:flex-row items-center main-header">
         <Link to="/" className="flex font-bold items-center mb-4 md:mb-0">
-          <span className="text-xl">{siteTitle}</span>
+          <span className="text-xl">Asif Khan</span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center justify-center">
           <Link to="/" className="mr-5 p-2">

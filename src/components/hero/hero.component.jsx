@@ -21,15 +21,14 @@ const Hero = () => {
       <div className="container mx-auto flex px-4 lg:px-24 py-32 md:flex-row flex-col items-center">
         <div className="lg:flex-grow lg:w-1/2 lg:pr-24 flex flex-col mb-16 md:mb-0">
           <p className="text-lg font-semibold leading-relaxed">I'm Asif &</p>
-          <h1 className="hidden">Asif Khan</h1>
           <h1 className="sm:text-4xl text-3xl mb-4 font-medium">
-            I Will Help You Build
-            <br />
-            <span>Digital Experiences</span>
+            I Will Help You Build <br />
+            Digital Experiences
           </h1>
           <p className="mb-8 leading-relaxed w-4/5 lg:w-full">
             For over 3 years, I've been helping startups, corporate businesses,
-            non-profits, and pets launch their online business.
+            non-profits, and pets launch their online businesses and I can do
+            the same for you.
           </p>
           <div className="flex flex-row items-center md:items-start">
             <CustomButton
