@@ -66,6 +66,7 @@ const Hero = () => {
             placeholder="blurred"
             formats={["auto", "webp", "avif"]}
             alt="Web Developer Hero"
+            className="w-full h-full"
           />
         </div>
       </div>

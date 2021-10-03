@@ -1,6 +1,5 @@
 import React from "react"
 import "./footer.styles.scss"
-import { Link } from "gatsby"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -27,11 +26,6 @@ const Footer = () => (
                 >
                   Resume
                 </a>
-              </li>
-              <li class="mr-3">
-                <Link to="/blog" className="text-gray-600">
-                  Blog
-                </Link>
               </li>
             </ul>
           </nav>
