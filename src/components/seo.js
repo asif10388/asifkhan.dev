@@ -3,13 +3,15 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title }) {
+function Seo({ description, lang, meta, title, imageUrl }) {
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
             title
+            siteUrl
+            ogImage
             description
             author
           }
@@ -20,6 +22,7 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const ogImage = site.siteMetadata.ogImage || imageUrl
 
   return (
     <Helmet
@@ -40,6 +43,18 @@ function Seo({ description, lang, meta, title }) {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:locale`,
+          content: `en_GB`,
+        },
+        {
+          property: `og:image`,
+          content: ogImage,
+        },
+        {
+          property: `og:image:alt`,
+          content: `Open Graph Image`,
         },
         {
           property: `og:type`,

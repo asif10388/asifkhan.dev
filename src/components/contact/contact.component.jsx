@@ -55,7 +55,7 @@ class Contact extends React.Component {
         >
           <section className="relative sm:rounded-lg contact-body">
             <div className="container px-4 lg:px-24 py-24 md:mx-auto">
-              <div class="flex flex-col md:flex-row">
+              <div className="flex flex-col md:flex-row">
                 <div className="flex flex-col w-full md:w-1/2 mb-12">
                   <h2 className="sm:text-4xl text-2xl mb-4">
                     Let's talk about your project!
@@ -65,7 +65,7 @@ class Contact extends React.Component {
                     amazing idea and figure out together how we can bring it to
                     life. Message me and I'll get back to you.
                   </p>
-                  <div class="my-auto">
+                  <div className="my-auto">
                     <h2 className="sm:text-3xl text-2xl">
                       For questions, email me at
                     </h2>

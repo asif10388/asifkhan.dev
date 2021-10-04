@@ -18,8 +18,8 @@ const Footer = () => (
         <div className="md:w-1/2 w-full flex items-center mb-5 mb:mb-0">
           <h2 className="title-font font-medium text-lg mr-3">Asif Khan</h2>
           <nav className="list-none ml-auto md:ml-0">
-            <ul class="flex">
-              <li class="mr-3">
+            <ul className="flex">
+              <li className="mr-3">
                 <a
                   href="https://drive.google.com/uc?export=download&id=1X7NnqxpnlBvXOPIX4Kvx1dFneppRDxec"
                   className="text-gray-600"
@@ -32,30 +32,33 @@ const Footer = () => (
         </div>
         <div className="md:w-1/2 w-full flex flex-col items-center md:items-end">
           <nav className="list-none flex justify-start mb-2 sm:mb-0">
-            <ul class="flex nav-links">
-              <li class="mr-12">
+            <ul className="flex nav-links">
+              <li className="mr-12">
                 <OutboundLink
                   href="https://dribbble.com/asif10388"
                   className="text-gray-600 mr-3"
                   target="_new"
+                  aria-label="Dribble"
                 >
                   <FontAwesomeIcon icon={faDribbble} size="2x" />
                 </OutboundLink>
               </li>
-              <li class="mr-12">
+              <li className="mr-12">
                 <OutboundLink
                   href="https://github.com/asif10388"
                   className="text-gray-600 mr-3"
                   target="_new"
+                  aria-label="Github"
                 >
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </OutboundLink>
               </li>
-              <li class="mr-12">
+              <li className="mr-12">
                 <OutboundLink
                   href="https://www.linkedin.com/in/asif10388/"
                   className="text-gray-600 mr-3"
                   target="_new"
+                  aria-label="LinkedIn"
                 >
                   <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </OutboundLink>
@@ -65,6 +68,7 @@ const Footer = () => (
                   href="https://www.facebook.com/asif10388"
                   className="text-gray-600"
                   target="_new"
+                  aria-label="Facebook"
                 >
                   <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </OutboundLink>

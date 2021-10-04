@@ -6,9 +6,9 @@ const Features = () => {
     <section className="features-body mb-24">
       <div className="container px-4 lg:px-24 pt-24 pb-32 mx-auto">
         <div className="mb-10">
-          <h2 className="sm:text-5xl text-2xl mb-4">What I Do.</h2>
+          <h2 className="text-4xl mb-4">What I Do.</h2>
           <div className="flex mt-4">
-            <div className="w-48 h-1 rounded-full line inline-flex"></div>
+            <div className="w-3/5 md:w-1/5 h-1 rounded-full line inline-flex"></div>
           </div>
         </div>
         <div className="flex flex-wrap md:flex-no-wrap lg:flex-wrap justify-between">

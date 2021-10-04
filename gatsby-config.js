@@ -6,6 +6,7 @@ module.exports = {
     description: `For over 3 years, I've been helping startups, corporate businesses, non-profits, and pets launch their online businesses and I can do the same for you.`,
     author: `@asif10388`,
     siteUrl: `https://asifkhandev.netlify.app`,
+    ogImage: `https://res.cloudinary.com/asif10388/image/upload/v1633337877/work-images/og-image.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

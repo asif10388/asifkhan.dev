@@ -22,8 +22,9 @@ const Hero = () => {
         <div className="lg:flex-grow lg:w-1/2 lg:pr-24 flex flex-col mb-16 md:mb-0">
           <p className="text-lg font-semibold leading-relaxed">I'm Asif &</p>
           <h1 className="sm:text-4xl text-3xl mb-4 font-medium">
-            I Will Help You Build <br />
-            Digital Experiences
+            I Build Websites That
+            <br />
+            Solves Problems
           </h1>
           <p className="mb-8 leading-relaxed w-4/5 lg:w-full">
             For over 3 years, I've been helping startups, corporate businesses,
@@ -38,13 +39,13 @@ const Hero = () => {
             >
               My Projects
             </CustomButton>
-            <div class="tooltip">
+            <div className="tooltip">
               <CustomButton
                 isSecondary
                 onClick={copyToClipBoard}
                 onMouseOut={outFunc}
               >
-                <span class="tooltiptext" id="myTooltip">
+                <span className="tooltiptext" id="myTooltip">
                   {toolTip}
                 </span>
                 Email Me!
@@ -54,7 +55,7 @@ const Hero = () => {
         </div>
         <div className="relative lg:hidden w-full">
           <img
-            class="object-cover object-center rounded"
+            className="object-cover object-center rounded"
             alt="hero"
             src="https://res.cloudinary.com/asif10388/image/upload/v1631978564/Images/hero3_1-min_vu9wjg.png"
           />
