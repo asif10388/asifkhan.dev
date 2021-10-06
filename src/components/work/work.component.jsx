@@ -22,8 +22,9 @@ const Work = () => {
       }
     }
   `)
-
+  data.allCloudinaryMedia.edges.shift()
   const WorkData = data.allCloudinaryMedia.edges
+  console.log(WorkData)
 
   return (
     <section className="work-body" id="works">

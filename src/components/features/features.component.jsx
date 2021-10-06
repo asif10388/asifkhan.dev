@@ -15,7 +15,7 @@ const Features = () => {
           <div className="feature-card">
             <div className="feature-image">
               <img
-                src="https://res.cloudinary.com/asif10388/image/upload/v1632998565/Web_Dev_qbd2ti.svg"
+                src="https://res.cloudinary.com/asif10388/image/upload/v1632998565/Assets/Web_Dev_qbd2ti.svg"
                 alt="Web Development"
               />
             </div>
@@ -33,7 +33,7 @@ const Features = () => {
           <div className="feature-card">
             <div className="feature-image">
               <img
-                src="https://res.cloudinary.com/asif10388/image/upload/v1632998545/Design_Pen_o2tswd.svg"
+                src="https://res.cloudinary.com/asif10388/image/upload/v1632998545/Assets/Design_Pen_o2tswd.svg"
                 alt=" Web Design"
               />
             </div>
@@ -50,7 +50,7 @@ const Features = () => {
           <div className="feature-card">
             <div className="feature-image">
               <img
-                src="https://res.cloudinary.com/asif10388/image/upload/v1633000053/SEO_phkovs.svg"
+                src="https://res.cloudinary.com/asif10388/image/upload/v1633000053/Assets/SEO_phkovs.svg"
                 alt="Search Engine Optimization"
               />
             </div>

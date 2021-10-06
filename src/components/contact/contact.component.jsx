@@ -60,7 +60,7 @@ class Contact extends React.Component {
                   <h2 className="sm:text-4xl text-2xl mb-4">
                     Let's talk about your project!
                   </h2>
-                  <p className="lg:w-3/4 text-gray-700 text-xs leading-relaxed text-base mb-5">
+                  <p className="lg:w-3/4 text-gray-500 text-xs leading-relaxed text-base mb-5">
                     Want to build something amazing? Let’s talk about your
                     amazing idea and figure out together how we can bring it to
                     life. Message me and I'll get back to you.

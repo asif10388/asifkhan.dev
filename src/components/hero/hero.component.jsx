@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="sm:text-4xl text-3xl mb-4 font-medium">
             I Build Websites That
             <br />
-            Solves Problems
+            Transforms Businesses
           </h1>
           <p className="mb-8 leading-relaxed w-4/5 lg:w-full">
             For over 3 years, I've been helping startups, corporate businesses,

@@ -16,7 +16,7 @@ const Footer = () => (
     <div className="container px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
       <div className="flex-grow flex flex-wrap md:pr-20 md:text-left order-first">
         <div className="md:w-1/2 w-full flex items-center mb-5 mb:mb-0">
-          <h2 className="title-font font-medium text-lg mr-3">Asif Khan</h2>
+          <h2 className="font-bold text-lg mr-3">Asif Khan</h2>
           <nav className="list-none ml-auto md:ml-0">
             <ul className="flex">
               <li className="mr-3">
@@ -24,7 +24,7 @@ const Footer = () => (
                   href="https://drive.google.com/uc?export=download&id=1X7NnqxpnlBvXOPIX4Kvx1dFneppRDxec"
                   className="text-gray-600"
                 >
-                  Resume
+                  <p>Download Resume</p>
                 </a>
               </li>
             </ul>
