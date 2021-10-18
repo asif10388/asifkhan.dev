@@ -19,17 +19,19 @@ const Hero = () => {
   return (
     <section className="hero-body">
       <div className="container mx-auto flex px-4 lg:px-24 py-32 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow lg:w-1/2 lg:pr-24 flex flex-col mb-16 md:mb-0">
-          <p className="text-lg font-semibold leading-relaxed">I'm Asif &</p>
-          <h1 className="sm:text-4xl text-3xl mb-4 font-medium">
-            I Build Websites That
-            <br />
-            Transforms Businesses
+        <div className="lg:flex-grow lg:w-1/2 lg:pr-10 flex flex-col mb-16 md:mb-0">
+          <p className="text-lg font-semibold leading-relaxed">
+            I'm Asif & I'll
+          </p>
+          <h1 className="sm:text-3xl text-2xl mb-4 font-medium">
+            Make your business stand out <br className="hidden md:block" /> with
+            websites that convert.
           </h1>
-          <p className="mb-8 leading-relaxed w-4/5 lg:w-full">
+          <p className="mb-8 leading-relaxed w-full">
             For over 3 years, I've been helping startups, corporate businesses,
-            non-profits, and pets launch their online businesses and I can do
-            the same for you.
+            non-profits, bring their business online. I specialize in building
+            professional, user-friendly, high-converting and lightning fast
+            websites.
           </p>
           <div className="flex flex-row items-center md:items-start">
             <CustomButton
@@ -48,7 +50,7 @@ const Hero = () => {
                 <span className="tooltiptext" id="myTooltip">
                   {toolTip}
                 </span>
-                Email Me!
+                Copy Email
               </CustomButton>
             </div>
           </div>

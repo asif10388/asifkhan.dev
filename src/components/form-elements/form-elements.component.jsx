@@ -14,7 +14,7 @@ export const MyTextInput = ({ label, ...props }) => {
       </label>
 
       <input
-        className="w-full rounded border border-gray-400 focus:outline-none focus:border-blue-500 text-base px-4 py-2 text-black"
+        className="w-full rounded border border-gray-300 focus:outline-none focus:border-blue-500 text-base px-4 py-2 text-black"
         {...field}
         {...props}
       />
@@ -39,7 +39,7 @@ export const MyTextArea = ({ label, ...props }) => {
       </label>
 
       <textarea
-        className=" text-black w-full rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none"
+        className=" text-black w-full rounded border border-gray-300 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none"
         {...field}
         {...props}
       ></textarea>

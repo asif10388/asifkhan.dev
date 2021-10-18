@@ -12,8 +12,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => (
-  <footer className="footer-body">
-    <div className="container px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+  <footer className="px-5 lg:px-24 py-5 footer-body">
+    <div className="container mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
       <div className="flex-grow flex flex-wrap md:pr-20 md:text-left order-first">
         <div className="md:w-1/2 w-full flex items-center mb-5 mb:mb-0">
           <h2 className="font-bold text-lg mr-3">Asif Khan</h2>
@@ -79,7 +79,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row text-center md:text-left">
+    <div className="container mx-auto py-4 flex flex-wrap flex-col sm:flex-row text-center md:text-left">
       <p className="text-gray-600 text-xs">
         ©{new Date().getFullYear()} asifkhan — All Rights Reserved
       </p>

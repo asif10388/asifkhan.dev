@@ -7,6 +7,10 @@
     font-family: $headline-font;
     font-weight: 700;
   }
+  p,
+  label {
+    font-family: $default-font;
+  }
   button {
     display: flex;
     margin: 0 auto;

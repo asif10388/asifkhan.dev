@@ -21,12 +21,12 @@ const Features = () => {
             </div>
             <div className="flex-grow">
               <h3 className="text-2xl title-font font-medium mb-3">
-                Web Development
+                Development
               </h3>
-              <p className="leading-relaxed text-base sm:px-4">
-                Beautiful websites for any business is a must. That's why I
-                ensure that all websites I built are 100% responsive and will
-                deliver a great user experience.
+              <p className="leading-relaxed text-base">
+                Beautiful websites for any business is a must. So I ensure that
+                all websites I built are 100% responsive and will deliver a
+                great user experience.
               </p>
             </div>
           </div>
@@ -38,10 +38,8 @@ const Features = () => {
               />
             </div>
             <div className="flex-grow">
-              <h3 className="text-2xl title-font font-medium mb-3">
-                Web Design
-              </h3>
-              <p className="leading-relaxed text-base sm:px-4">
+              <h3 className="text-2xl title-font font-medium mb-3">Design</h3>
+              <p className="leading-relaxed text-base">
                 I focus on designing pixel perfect websites and illustrations so
                 your consumers can have an amazing time on your site.
               </p>
@@ -56,7 +54,7 @@ const Features = () => {
             </div>
             <div className="flex-grow">
               <h3 className="text-2xl title-font font-medium mb-3">SEO</h3>
-              <p className="leading-relaxed text-base sm:px-4">
+              <p className="leading-relaxed text-base">
                 Just designing and building a website isn't enough. You need
                 people to know about it. So, I can help you with SEO rank on the
                 first page also

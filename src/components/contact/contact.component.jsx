@@ -70,7 +70,7 @@ class Contact extends React.Component {
                       For questions, email me at
                     </h2>
                     <h2 className="sm:text-3xl text-2xl">
-                      asif.khan10388@gmail.com
+                      asif(.)khan10388(@)gmail(.)com
                     </h2>
                   </div>
                 </div>

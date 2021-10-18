@@ -13,6 +13,7 @@ const Work = () => {
             secure_url
             context {
               custom {
+                Url
                 alt
                 caption
               }
@@ -24,7 +25,6 @@ const Work = () => {
   `)
   data.allCloudinaryMedia.edges.shift()
   const WorkData = data.allCloudinaryMedia.edges
-  console.log(WorkData)
 
   return (
     <section className="work-body" id="works">
@@ -37,6 +37,7 @@ const Work = () => {
         </div>
         {WorkData.map((work, index) => {
           const flipOrder = index % 2 === 0
+          const info = work.node.context.custom
           return (
             <div
               className="mx-auto flex py-16 md:flex-row flex-col items-center"
@@ -49,23 +50,17 @@ const Work = () => {
                     : "items-start lg:pr-48"
                 } lg:flex-grow md:w-1/2 lg:pr-16 flex flex-col mb-16 md:mb-0`}
               >
-                <h2 className="font-bold sm:text-4xl text-3xl">
-                  {work.node.context.custom.caption}
+                <h2 className="font-bold sm:text-4xl text-3xl mb-2">
+                  {info.caption}
                 </h2>
                 <p className="mb-12 leading-relaxed text-gray-600">
-                  {work.node.context.custom.alt}
+                  {info.alt}
                 </p>
 
                 <div className="flex md:justify-center">
-                  <CustomButton isPrimary>
-                    <OutboundLink
-                      href={work.url}
-                      tOutboundLinkrget="_blank"
-                      rel="noreferrer"
-                    >
-                      Visit Site
-                    </OutboundLink>
-                  </CustomButton>
+                  <a href={info.Url} target="_blank">
+                    <CustomButton isPrimary>Visit Site</CustomButton>
+                  </a>
                 </div>
               </div>
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
