@@ -66,10 +66,10 @@ class Contact extends React.Component {
                     life. Message me and let's talk.
                   </p>
                   <div className="my-auto">
-                    <h2 className="sm:text-3xl text-2xl">
+                    <h2 className="sm:text-3xl text-xl">
                       For questions, email me at
                     </h2>
-                    <h2 className="sm:text-3xl text-2xl">
+                    <h2 className="sm:text-3xl text-lg">
                       asif(.)khan10388(@)gmail(.)com
                     </h2>
                   </div>
