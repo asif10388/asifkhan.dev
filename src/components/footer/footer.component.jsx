@@ -21,7 +21,7 @@ const Footer = () => (
             <ul className="flex">
               <li className="mr-3">
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1X7NnqxpnlBvXOPIX4Kvx1dFneppRDxec"
+                  href="https://drive.google.com/uc?export=download&id=12gRq1ImPrJ5SYwhkAfzShc5eNc6exuVA"
                   className="text-gray-600"
                 >
                   <p>Download Resume</p>
